@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string str ="sdg jtr[[]]] th(kn)j))f(]d ff h";
+     int  count1=0;
+     int count2=0;
+    for (int i = 0; i < str.length(); i++) {
+     if(str[i] == '['|| str[i]==']' ){
+        count1++;
+    }
+     else if(str[i]=='('|| str[i]==')'){
+        count2++;
+    }}
+    cout<<"Кол круглых скобок:"<<count2<<"\n";
+    cout<<"Кол квадратных скобок:"<<count1;
+    return 0;
+}
